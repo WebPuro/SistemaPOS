@@ -7,20 +7,39 @@ Description: Comercializadora de equipos Sistema POS nuevos o re manufacturados 
 Version: 1.0
 
 */
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
+<<<<<<< HEAD
 	background: #f7f6fc;
 	color: #737d8d;
+=======
+	color: #ff5000;
+>>>>>>> origin/master
 	font-family: sans-serif;
 	font-size: 1rem;
 }
 a{
 	color: #ff5000;
 	text-decoration: none;
+<<<<<<< HEAD
 	list-style: none;
 }
 .container{
 	max-width: 1200px;
 	margin: 0 auto;	
+=======
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+nav {
+	
+>>>>>>> origin/master
 }
 nav ul li{
 	color: #fff;
@@ -29,12 +48,27 @@ nav ul li{
 	list-style: none;
 }
 nav ul li a{
+<<<<<<< HEAD
 	color: #737d8d;
+=======
+<<<<<<< HEAD
+	background: #A9ABAE;
+	color: #000;
+=======
+	
+	color: #A9ABAE;
+>>>>>>> origin/master
+>>>>>>> origin/master
 	text-decoration: none;
-	padding: 5px;
+	padding: 10px;
+	transition: .7s;
+}
+nav ul li a:hover {
+	background-color: #FF5000;
+	color: #FFF;
 }
 .menu{
-	margin: 10px 1px;
+	margin: 0px 0px;
 	padding: 5px;
 	float: right;
 }
