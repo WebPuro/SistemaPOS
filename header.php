@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-CO">
 <head>
 	<meta charset="<?php bloginfo ("charset"); ?>">
 	<title><?php bloginfo("name"); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo ("template_url"); ?>/style.css">
+	<Link rel="icono de acceso directo" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico"/>
 </head>
 <body class="container">
 	<header>

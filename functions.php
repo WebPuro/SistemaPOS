@@ -5,6 +5,6 @@
 		'menu-top'=>'Menu header',
 		));
 	//Soporte imagen destacadas
-	add_theme_support('post-thumbnails');
+	add_theme_support('post-thumbnails' );
 	add_image_size( 'thb-index', 250, 250, true);
 ?>
