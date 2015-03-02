@@ -9,6 +9,11 @@ Version: 1.0
 */
 body{
 	color: #ff5000;
+	font-family: sans-serif;
+}
+a{
+	color: #000;
+	text-decoration: none;
 }
 .container{
 	max-width: 1200px;
@@ -41,6 +46,6 @@ nav ul li a{
 	margin: 1px;
 }
 footer{
-	text-align: center;
 	border-bottom: 1px solid #000;
+	text-align: center;
 }
