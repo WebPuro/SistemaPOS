@@ -8,36 +8,28 @@ Version: 1.0
 
 */
 body{
-<<<<<<< HEAD
-	color: #A9ABAE;
-=======
-	color: #ff5000;
+	background: #f7f6fc;
+	color: #737d8d;
 	font-family: sans-serif;
+	font-size: 1rem;
 }
 a{
-	color: #000;
+	color: #ff5000;
 	text-decoration: none;
->>>>>>> origin/master
+	list-style: none;
 }
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
-	
-}
-nav {
-	border: 1px #000 solid;
+	margin: 0 auto;	
 }
 nav ul li{
-	
 	color: #fff;
 	display: inline-block;
 	margin: 0 10px;
 	list-style: none;
-	
 }
 nav ul li a{
-	
-	color: #A9ABAE;
+	color: #737d8d;
 	text-decoration: none;
 	padding: 5px;
 }
@@ -53,11 +45,6 @@ nav ul li a:hover{
 	background: #ff5000;
 	color: #fff;
 	transition: 0.9s;
-}
-a{
-	color: #ff5000
-	text-decoration: none;
-	list-style: none;
 }
 footer{
 	border-bottom: 1px solid #000;

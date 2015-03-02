@@ -16,3 +16,6 @@
 		<a href="<?php echo home_url('/'); ?>"><h1><?php bloginfo("name"); ?></h1></a>
 		<p><?php bloginfo("descripcion"); ?></p>
 	</header>
+	<div class="Slider">
+		
+	</div>
