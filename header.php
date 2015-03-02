@@ -8,11 +8,11 @@
 </head>
 <body class="container">
 	<header>
-		<a href="<?php echo home_url('/'); ?>"><h1><?php bloginfo("name"); ?></h1></a>
-		<p><?php bloginfo("descripcion"); ?></p>
 	<nav>
 		<?php wp_nav_menu(array(
 		'theme-location' => 'menu-top',
 	)); ?>
 	</nav>
+		<a href="<?php echo home_url('/'); ?>"><h1><?php bloginfo("name"); ?></h1></a>
+		<p><?php bloginfo("descripcion"); ?></p>
 	</header>
