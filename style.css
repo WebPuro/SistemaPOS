@@ -1,8 +1,29 @@
 /*
 Theme Name: Sistema POS
-description: Comersializadora de Sistemas POS para el comercio.
+Theme URI: http://webpuro.net/themes/sistema_pos
 Author: WebPuro
+Author URI: http://webpuro.net
+Description: Comersializadora de Sistemas POS para el comercio.
 Version: 1.0
-atom_url: http://webpuro.com
-admin_email: soporte@webpuro.net
+
 */
+body{
+	color: #ff5000;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+nav {
+	border: 1px #000 solid;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 10px;
+	list-style: none;
+}
+footer{
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
